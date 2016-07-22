@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+  box-sizing: border-box;
+  /*reset Chrome user agent styles*/
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-before: 0px;
+  -webkit-padding-after: 0px;
+  -webkit-padding-start: 0px;
+  -webkit-padding-end: 0px;
+}
+body {
+  background-color: #FFF;
+  text-align: center;
+  padding: 3rem;
+  font-family: 'Handlee', cursive;
+  font-size: 15px;
+}
+header {
+  background-color: #FFFA8B;
+}
+nav {
+  font-size: 25px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 25px;
+}
+h4 {
+  font-size: 20px;
+}
+ol,
+ul {
+  list-style: outside none none;
+}
+#me,
+#aboutMeText,
+h1,
+h2,
+h3,
+h4 {
+  padding: 1rem;
+}
+/*# sourceMappingURL=aboutme.1.0.0.css.map */

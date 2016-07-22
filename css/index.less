@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+//declare variables
+
+@background-color: #FFF;
+@header-color:#FFFA8B;
+@section-color:#99E2FF;
+@main-font-size:50px;
+@pd:1rem;
+
+
+//use variables
+
+body{
+    background-color: @background-color;
+    text-align:center;
+    padding:3rem;
+    font-family: 'Handlee', cursive;
+    font-size: @main-font-size - 35;
+}
+
+header{
+    background-color: @header-color;
+}
+nav{
+    font-size: @main-font-size - 25;
+    display:inline-block;
+    text-decoration: none;
+    padding:@pd;
+}
+
+h1{
+    font-size:@main-font-size;
+}
+
+h2{
+    font-size:@main-font-size - 20;
+}
+
+h3{
+    font-size:@main-font-size - 25;
+}
+
+h4{
+    font-size:@main-font-size - 30;
+}
+
+ol,
+ul {
+    list-style: outside none none;
+}
+
+#me, #aboutMeText, h1,h2,h3,h4 {
+
+     padding:@pd;
+}
+
+#navigation {
+    a:link a:visted {
+        display: inline-block;
+        padding: 8px;
+        color: white;
+    }
+    a:hover {
+        background: slategray;
+    }
+}
