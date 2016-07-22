@@ -55,4 +55,12 @@ h3,
 h4 {
   padding: 1rem;
 }
+#navigation a:link a:visted {
+  display: inline-block;
+  padding: 8px;
+  color: white;
+}
+#navigation a:hover {
+  background: slategray;
+}
 /*# sourceMappingURL=aboutme.1.0.0.css.map */

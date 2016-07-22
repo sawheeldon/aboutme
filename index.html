@@ -25,8 +25,11 @@
         <section>
             <container id="me">
                 <h2> About Me </h2>
-                <div id="selfie">
-                    <img src="images/me.jpg" height="420px" width="350px">
+                
+                <div class="container" id="selfie" >
+                    <div class="shatter">
+                        <img src="images/me.jpg" height="420px" width="350px">
+                    </div>
                 </div>
                 <div id="aboutMeText">
                     <p>Hi there, thanks so much for visiting my site. I am passionate developer who is always looking for a new challenge.</p>
@@ -89,17 +92,17 @@
                 <ul class="social-media">
                     <li>
                         <a href="https://uk.linkedin.com/in/simon-wheeldon-9aab8a4b" target="_blank">
-                            <img src="social-icons/png/linkedin.png" height="40" width="40">
+                            <img src="images/png/linkedin.png" height="40" width="40">
                         </a>
                     </li>
                     <li>
                         <a href="https://twitter.com/jampot_design" target="_blank">
-                            <img src="social-icons/png/twitter.png" height="40" width="40">
+                            <img src="images/png/twitter.png" height="40" width="40">
                         </a>
                     </li>
                     <li>
                         <a href="https://github.com/sawheeldon" target="_blank">
-                            <img src="social-icons/png/github-logo.png" height="40" width="40">
+                            <img src="images/png/github-logo.png" height="40" width="40">
                         </a>
                     </li>
                 </ul>
@@ -107,8 +110,11 @@
             </container>
         </section>
     </main>
-    <script src="node_modules/jquery/dist/jquery.js">
-    </script>
+    <!--<script src="node_modules/jquery/dist/jquery.js"></script>-->
+    <script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+    <script src="js/d3voronoi.js"  type="text/javascript" ></script>
+    <script src="js/jGravity-min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/shatter.js"  type="text/javascript" ></script>
     <script src="js/index.js"></script>
 
 </body>
